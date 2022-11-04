@@ -1,7 +1,7 @@
 {
-    "name":"my first extension",
+    "name":"Youtube Dark mode",
     "version":"1.0.0",
-    "description":"this is my very first cool extension",
+    "description":"This extension turn on youtube background to dark",
     "manifest_version": 2,
     "background":{
         "scripts":[
@@ -20,7 +20,8 @@
         }
     ], 
     "permissions":[
-        "bookmarks"
+        "bookmarks",
+        "storage"
     ],
     "icons":{
         "16":"darkicon.png",
@@ -29,7 +30,6 @@
     },
     "browser_action":{
         "default_title":"Created by Thomas, enjoy!:)",
-        "defualt_popup":"popup.html"
-
+        "default_popup":"popup.html"
     }
 }
