@@ -1,0 +1,11 @@
+{
+    "appName":{
+        "message": "Youtube dark mode"
+    },
+    "appDescription":{
+        "message":"This extension turn youtube into dark mode."
+    },
+    "enableDarkModeText":{
+        "message":"Turn into dark"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "appName":{
+        "message":"Youtube dunkel modus"
+    },
+    "appDescription":{
+        "message":"Diese Erweiterung schaltet youtube in den Dark Mode."
+    },
+    "enableDarkModeText":{
+        "message":"In Dunkelheit verwandeln"
+    }
+}
