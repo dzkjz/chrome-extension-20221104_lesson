@@ -2,13 +2,10 @@
     "name":"__MSG_appName__",
     "version":"1.0.0",
     "description":"__MSG_appDescription__",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "default_locale":"en",
     "background":{
-        "scripts":[
-            "background.js"
-        ],
-        "persistent":false
+        "service_worker": "background.js"
     },
     "content_scripts":[
         {
@@ -23,7 +20,9 @@
     ], 
     "permissions":[
         "bookmarks",
-        "storage",
+        "storage"
+    ],
+    "host_permissons":[
         "https://api.github.com/"
     ],
     "icons":{
@@ -31,7 +30,7 @@
         "48":"darkicon.png",
         "128":"darkicon.png"
     },
-    "browser_action":{
+    "action":{
         "default_title":"Created by Thomas, enjoy!:)",
         "default_popup":"popup.html"
     }
